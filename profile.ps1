@@ -1,11 +1,11 @@
 $FormatEnumerationLimit = -1 #don't cut off the response when retrieving objects
-$PSDefaultParameterValues['Install-Module:Scope'] = 'CurrentUser'
 $PSDefaultParameterValues = @{
-    "export-csv:NotypeInformation"=$true
-    "export-csv:Encoding"="UTF8"
-    "export-csv:delimiter"=";"
-    "import-csv:delimiter"=";"
-    "group-Object:NoElement"=$true
+    'export-csv:NotypeInformation'=$true
+    'export-csv:Encoding'='UTF8'
+    'export-csv:delimiter'=';'
+    'import-csv:delimiter'=';'
+    'group-Object:NoElement"=$true
+    'Install-Module:Scope' = 'CurrentUser'
 }
 
 function Prompt {
