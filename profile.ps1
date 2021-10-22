@@ -4,7 +4,7 @@ $PSDefaultParameterValues = @{
     'export-csv:Encoding'='UTF8'
     'export-csv:delimiter'=';'
     'import-csv:delimiter'=';'
-    'group-Object:NoElement"=$true
+    'group-Object:NoElement'=$true
     'Install-Module:Scope' = 'CurrentUser'
 }
 
